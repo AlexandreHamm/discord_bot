@@ -95,6 +95,8 @@ CLAN_MEMBER_ROLE_ID=YOUR_ROLE_ID
 ### 4. Start bot
 - `npm run dev`
 
+---
+
 ## 🔐 Required Permissions
 
 - Bot must have:
@@ -110,12 +112,16 @@ CLAN_MEMBER_ROLE_ID=YOUR_ROLE_ID
 
   - Bot role must be above roles it assigns
 
+---
+
 ## 📌 Current Limitations
 
 - No database (data stored in Discord only)
 - Application tracking based on thread names + embeds
 - Single-platform recruitment (PC only)
 - No logging system (intentional for now)
+
+---
 
 ## 🧭 Roadmap (Next Ideas)
 - Onboarding system (Discord native)
@@ -125,6 +131,8 @@ CLAN_MEMBER_ROLE_ID=YOUR_ROLE_ID
 - Optional logging system
 - Database integration (advanced)
 
+---
+
 ## 🧠 Philosophy
 
 - This bot is designed to be:
@@ -133,6 +141,8 @@ CLAN_MEMBER_ROLE_ID=YOUR_ROLE_ID
   - Scalable (modular structure)
   - Invisible (system-driven, not staff-driven)
   - Efficient (minimal friction for users)
+
+---
 
 ## 👤 Author
 
