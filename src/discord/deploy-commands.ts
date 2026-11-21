@@ -17,6 +17,7 @@ import setupRaidCommand from "../commands/setup/setup-raid.command.js";
 
 import setupEscalationCommand from "../commands/setup/setup-escalation.command.js";
 import setupSuggestionsCommand from "../commands/setup/setup-suggestions.command.js";
+import autoPublishCommand from "../commands/setup/auto-publish.command.js";
 
 const commands = [
   pingCommand.data.toJSON(),
@@ -26,6 +27,7 @@ const commands = [
   setupWelcomeCommand.data.toJSON(),
   setupEscalationCommand.data.toJSON(),
   setupSuggestionsCommand.data.toJSON(),
+  autoPublishCommand.data.toJSON(),
   acceptCommand.data.toJSON(),
   denyCommand.data.toJSON(),
   setupRaidCommand.data.toJSON(), // TEST

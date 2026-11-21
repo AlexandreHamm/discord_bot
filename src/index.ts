@@ -17,6 +17,7 @@ import { handleRaidModal } from "./interactions/modals/raid.modal.js";
 import { handleEscalationButton } from "./interactions/buttons/escalation.button.js";
 import { handleEscalationModal } from "./interactions/modals/escalation.modal.js";
 import { registerEscalationVoiceCleanup } from "./features/escalations/escalation-voice-cleanup.service.js";
+import { registerAutoPublish } from "./features/auto-publish/auto-publish.service.js";
 
 import { handleRaidWidgetButton } from "./interactions/buttons/raid-widget.button.js";
 
@@ -137,6 +138,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 });
 
 registerEscalationVoiceCleanup();
+registerAutoPublish();
 
 const port = Number(process.env.PORT ?? 10000);
 
